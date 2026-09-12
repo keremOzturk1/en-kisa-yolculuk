@@ -1,0 +1,32 @@
+# sample
+
+LINE: M1A | M1A Yenikapı – Atatürk Havalimanı | #E2231A
+DEFAULT: 2
+Yenikapı
+Aksaray
+Emniyet-Fatih
+Otogar
+Terazidere
+Atatürk Havalimanı | 4
+
+LINE: M1B | M1B Yenikapı – Kirazlı | #E2231A
+DEFAULT: 2
+Yenikapı
+Aksaray
+Emniyet-Fatih
+Otogar
+Kirazlı | 3
+
+LINE: M2 | M2 Yenikapı – Hacıosman | #009A44
+DEFAULT: 2
+Yenikapı
+Vezneciler
+Şişhane
+Taksim | 3
+Osmanbey
+
+LINE: M4 | M4 Kadıköy – Sabiha Gökçen
+DEFAULT: 2.5
+Kadıköy
+Ayrılık Çeşmesi
+Acıbadem

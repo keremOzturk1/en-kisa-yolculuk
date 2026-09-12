@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode — per-user state, never shared
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build output
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Python (Tools/)
+__pycache__/
+*.pyc
+
+# NOTE: EnKisaYolculuk/Data/network.json IS committed on purpose — it ships in
+# the app bundle. It is generated from Data/source/lines.txt; see DATA_SCHEMA.md.

@@ -1,0 +1,456 @@
+# İstanbul metro ağı — kaynak liste.
+# Tools/build_network.py ile EnKisaYolculuk/Data/network.json üretilir.
+#
+# Renkler kullanıcının belirttiği listeye göre (blok başlıklarındaki ilk hex
+# değerleri değil):
+#   M1A/M1B kırmızı (aynı ton) · M2 yeşil · M3 açık mavi · M4 pembe
+#   M5 mor · M6 bej · M7 açık pembe · M8 koyu mavi · M9 sarı · M11 açık mor
+#
+# Tramvay (T1–T6), füniküler (F1–F4), Marmaray ve metrobüs kapsam dışı.
+
+LINE: M1A | M1A Yenikapı–Atatürk Havalimanı | #E32219
+DEFAULT: 2
+Yenikapı
+Aksaray
+Emniyet-Fatih
+Topkapı-Ulubatlı
+Bayrampaşa-Maltepe
+Sağmalcılar
+Kocatepe
+Otogar
+Terazidere
+Davutpaşa-YTÜ
+Merter
+Zeytinburnu
+Bakırköy-İncirli
+Bahçelievler
+Ataköy-Şirinevler
+Yenibosna
+DTM-İstanbul Fuar Merkezi
+Atatürk Havalimanı
+
+LINE: M1B | M1B Yenikapı–Kirazlı-Bağcılar | #E32219
+DEFAULT: 2
+Yenikapı
+Aksaray
+Emniyet-Fatih
+Topkapı-Ulubatlı
+Bayrampaşa-Maltepe
+Sağmalcılar
+Kocatepe
+Otogar
+Esenler
+Menderes
+Üçyüzlü
+Bağcılar Meydan
+Kirazlı-Bağcılar
+
+LINE: M2 | M2 Yenikapı–Hacıosman | #009A44
+DEFAULT: 2
+Yenikapı
+Vezneciler-İstanbul Üniversitesi
+Haliç
+Şişhane
+Taksim
+Osmanbey
+Şişli-Mecidiyeköy
+Gayrettepe
+Levent
+4.Levent
+Sanayi Mahallesi
+İTÜ-Ayazağa
+Atatürk Oto Sanayi
+Darüşşafaka
+Hacıosman
+
+LINE: M3 | M3 Bakırköy Sahil–Kayaşehir Merkez | #00A9E0
+DEFAULT: 2
+Bakırköy Sahil
+Özgürlük Meydanı
+İncirli
+Haznedar
+İlkyuva
+Yıldıztepe
+Molla Gürani
+Kirazlı-Bağcılar
+Yenimahalle
+Mahmutbey
+İSTOÇ
+İkitelli Sanayi
+Turgut Özal
+Siteler
+Başak Konutları
+Başakşehir-Metrokent
+Onurkent
+Şehir Hastanesi
+Toplu Konutlar
+Kayaşehir Merkez
+
+LINE: M4 | M4 Kadıköy–Sabiha Gökçen Havalimanı | #EC008C
+DEFAULT: 2
+Kadıköy
+Ayrılık Çeşmesi
+Acıbadem
+Ünalan
+Göztepe
+Yenisahra
+Kozyatağı
+Bostancı
+Küçükyalı
+Maltepe
+Huzurevi
+Gülsuyu
+Esenkent
+Hastane-Adliye
+Soğanlık
+Kartal
+Yakacık-Adnan Kahveci
+Pendik
+Tavşantepe
+Fevzi Çakmak-Hastane
+Yayalar-Şeyhli
+Kurtköy
+Sabiha Gökçen Havalimanı | 4
+
+LINE: M5 | M5 Üsküdar–Sultanbeyli | #7F3F98
+DEFAULT: 2
+Üsküdar
+Fıstıkağacı
+Bağlarbaşı
+Altunizade
+Kısıklı
+Bulgurlu
+Ümraniye
+Çarşı
+Yamanevler
+Çakmak
+Ihlamurkuyu
+Altınşehir
+İmam Hatip Lisesi
+Dudullu
+Necip Fazıl
+Çekmeköy
+Meclis
+Sarıgazi
+Sancaktepe Şehir Hastanesi
+Sancaktepe
+Samandıra Merkez
+Veysel Karani
+Hasanpaşa
+Sultanbeyli
+
+LINE: M6 | M6 Levent–Boğaziçi Üniversitesi/Hisarüstü | #C7A07A
+DEFAULT: 2
+Levent
+Nispetiye
+Etiler
+Boğaziçi Üniversitesi/Hisarüstü | 3
+
+LINE: M7 | M7 Yıldız–Mahmutbey | #F49AC1
+DEFAULT: 2
+Yıldız
+Fulya
+Mecidiyeköy
+Çağlayan
+Kağıthane
+Nurtepe
+Alibeyköy
+Çırçır Mahallesi
+Veysel Karani-Akşemsettin
+Yeşilpınar
+Kazım Karabekir
+Yenimahalle
+Karadeniz Mahallesi
+Giyimkent-Tekstilkent
+Oruç Reis
+Göztepe Mahallesi
+Mahmutbey
+
+LINE: M8 | M8 Bostancı–Parseller | #00539F
+DEFAULT: 2
+Bostancı
+Emin Ali Paşa
+Ayşekadın
+Kozyatağı
+Küçükbakkalköy
+İçerenköy
+Kayışdağı
+Mevlana
+İMES
+MODOKO-KEYAP
+Dudullu
+Huzur
+Parseller
+
+LINE: M9 | M9 Ataköy–Olimpiyat | #FFD200
+DEFAULT: 2
+Ataköy
+Yenibosna
+Çobançeşme
+29 Ekim Cumhuriyet
+Doğu Sanayi
+Mimar Sinan
+15 Temmuz
+Halkalı Caddesi
+Atatürk Mahallesi
+Bahariye
+MASKO
+İkitelli Sanayi
+Ziya Gökalp Mahallesi
+Olimpiyat
+
+LINE: M11 | M11 Gayrettepe–İstanbul Havalimanı–Halkalı | #9E7FC8
+DEFAULT: 4
+Gayrettepe
+Kağıthane
+Hasdal
+Kemerburgaz
+Göktürk
+İhsaniye
+İstanbul Havalimanı | 6
+Kargo Terminali
+Taşoluk | 5
+Arnavutköy Hastane
+İbn Haldun Üniversitesi
+Kayaşehir
+Olimpiyatköy
+Halkalı Stadı
+Halkalı
+
+# ---------------------------------------------------------------------------
+# İkinci parti: füniküler (F1–F4) ve tramvay (T1, T2, T4, T5, T6).
+# Varsayılan durak arası süre 2.5 dk.
+#
+# İsim hizalaması YAPILMADI: hat-özel resmi isimler korunuyor, aynı aktarma
+# kompleksine ait olanlar Tools/build_network.py içindeki
+# VERIFIED_SAME_COMPLEX tablosuyla ortak complexId alıyor.
+#
+# F3 Seyrantepe bilinçli olarak bağımsız: M2 ile aktarması YOK.
+# M11 Terminal 2 eklenmedi (aktif yolcu durağı değil).
+# ---------------------------------------------------------------------------
+
+LINE: F1 | F1 Taksim–Kabataş Füniküler | #8B4513
+DEFAULT: 2.5
+Taksim
+Kabataş
+
+LINE: F2 | F2 Karaköy–Beyoğlu Tarihi Tünel | #8B4513
+DEFAULT: 2.5
+Karaköy
+Beyoğlu Tünel
+
+LINE: F3 | F3 Seyrantepe–Vadistanbul Füniküler | #8B4513
+DEFAULT: 2.5
+Seyrantepe
+Vadistanbul
+
+LINE: F4 | F4 Boğaziçi Üniversitesi/Hisarüstü–Aşiyan Füniküler | #8B4513
+DEFAULT: 2.5
+Boğaziçi Üniversitesi/Hisarüstü
+Aşiyan
+
+LINE: T1 | T1 Kabataş–Bağcılar Tramvayı | #D4A017
+DEFAULT: 2.5
+Kabataş
+Fındıklı-Mimar Sinan Ü.
+Tophane
+Karaköy
+Eminönü
+Sirkeci
+Gülhane
+Sultanahmet
+Çemberlitaş
+Beyazıt-Kapalıçarşı
+Laleli-İstanbul Ü.
+Aksaray
+Yusufpaşa
+Haseki
+Fındıkzade
+Çapa-Şehremini
+Pazartekke
+Topkapı
+Cevizlibağ-AÖY
+Merkezefendi
+Seyitnizam-Akşemsettin
+Mithatpaşa
+Zeytinburnu
+Mehmet Akif
+Merter Tekstil Merkezi
+Güngören
+Akıncılar
+Soğanlı
+Yavuzselim
+Güneştepe
+Bağcılar Meydan
+
+LINE: T2 | T2 Taksim–Tünel Nostaljik Tramvayı | #D4A017
+DEFAULT: 2.5
+Taksim
+Hüseyin Ağa Camii
+Galatasaray Lisesi
+Odakule
+Beyoğlu Tünel
+
+LINE: T4 | T4 Topkapı–Mescid-i Selam Tramvayı | #D4A017
+DEFAULT: 2.5
+Topkapı
+Fetihkapı
+Vatan
+Edirnekapı
+Şehitlik
+Demirkapı
+Topçular
+Rami
+Uluyol Bereç
+Sağmalcılar
+Bosna Çukurçeşme
+Ali Fuat Başgil
+Taşköprü
+Karadeniz
+Kiptaş-Venezia
+Cumhuriyet Mahallesi
+50.Yıl-Baştabya
+Hacı Şükrü
+Yenimahalle
+Sultançiftliği
+Cebeci
+Mescid-i Selam
+
+LINE: T5 | T5 Eminönü–Alibeyköy Cep Otogarı Tramvayı | #D4A017
+DEFAULT: 2.5
+Eminönü
+Küçükpazar
+Cibali
+Fener
+Balat
+Ayvansaray
+Feshane
+Eyüpsultan Teleferik
+Eyüpsultan Devlet Hastanesi
+Silahtarağa Mahallesi
+Üniversite
+Alibeyköy Merkez
+Alibeyköy Metro
+Alibeyköy Cep Otogarı
+
+LINE: T6 | T6 Sirkeci–Kazlıçeşme Raylı Sistem Hattı | #D4A017
+DEFAULT: 2.5
+Sirkeci
+Cankurtaran
+Kumkapı
+Yenikapı
+Cerrahpaşa
+Kocamustafapaşa
+Yedikule
+Kazlıçeşme
+
+# ---------------------------------------------------------------------------
+# Marmaray. Bu hat Avrupa ve Anadolu yakasını birleştiriyor.
+#
+# Aşağıdaki Marmaray durakları metroda AYNI İSMİ taşıyor ama FARKLI fiziksel
+# istasyonlar; Tools/build_network.py içindeki VERIFIED_SEPARATE_BY_LINE ile
+# kendi id'lerini alıyorlar (isimleri değişmiyor):
+#   Göztepe, Maltepe, Kartal, Pendik, Küçükyalı, Yenimahalle
+#
+# Bakırköy (Marmaray) ↔ Özgürlük Meydanı (M3) tek aktarma kompleksi, ama
+# 15 dk yürüme — CUSTOM_TRANSFER_PENALTIES'te tanımlı.
+# ---------------------------------------------------------------------------
+
+LINE: Marmaray | Marmaray B1 Halkalı–Gebze | #E4002B
+DEFAULT: 3
+Halkalı
+Mustafa Kemal
+Küçükçekmece
+Florya
+Florya Akvaryum
+Yeşilköy
+Yeşilyurt
+Ataköy
+Bakırköy
+Yenimahalle
+Zeytinburnu
+Kazlıçeşme
+Yenikapı
+Sirkeci
+Üsküdar
+Ayrılık Çeşmesi
+Söğütlüçeşme
+Feneryolu
+Göztepe
+Erenköy
+Suadiye
+Bostancı
+Küçükyalı
+İdealtepe
+Sürayya Plajı
+Maltepe
+Cevizli
+Atalar
+Başak
+Kartal
+Yunus
+Pendik
+Kaynarca
+Tersane
+Güzelyalı
+Aydıntepe
+İçmeler
+Tuzla
+Çayırova
+Fatih
+Osmangazi
+Darıca
+Gebze
+
+# ---------------------------------------------------------------------------
+# Metrobüs. Neredeyse tüm aktarmaları raylı sisteme YÜRÜYEREK, 15 dk.
+# Aktarmaların çoğu farklı isimli istasyonlar arasında; hepsi
+# Tools/build_network.py içindeki CUSTOM_TRANSFER_PENALTIES'te açıkça tanımlı.
+# ---------------------------------------------------------------------------
+
+LINE: Metrobüs | Metrobüs Beylikdüzü–Söğütlüçeşme | #FF6600
+DEFAULT: 2.5
+Beylikdüzü Son Durak
+Beykent
+Cumhuriyet Mahallesi
+Beylikdüzü Belediye
+Beylikdüzü
+Güzelyart
+Haramidere
+Haramidere Sanayi
+Saadetdere Mahallesi
+Mustafa Kemalpaşa
+Cihangir-Üniversite Mahallesi
+Avcılar Merkez-Üniversite Kampüsü
+Şükrübey
+İBB Sosyal Tesisleri
+Küçükçekmece
+Cennet Mahallesi
+Florya
+Beşyol
+Sefaköy
+Yenibosna
+Şirinevler
+Bahçelievler
+İncirli
+Zeytinburnu
+Merter
+Cevizlibağ
+Topkapı-Şehit Mustafa Cambaz
+Bayrampaşa-Maltepe
+Edirnekapı
+Ayvansaray-Eyüpsultan
+Halıcıoğlu
+Okmeydanı
+Darülaceze-Perpa
+Okmeydanı Hastane
+Çağlayan
+Mecidiyeköy
+Zincirlikuyu
+15 Temmuz Şehitler Köprüsü
+Burhaniye
+Altunizade
+Acıbadem
+Uzunçayır
+Fikirtepe
+Söğütlüçeşme

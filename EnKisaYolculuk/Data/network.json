@@ -1,0 +1,3578 @@
+{
+  "version": 1,
+  "transferPenaltyMinutes": 10.0,
+  "stations": [
+    {
+      "id": "15_temmuz",
+      "name": "15 Temmuz"
+    },
+    {
+      "id": "15_temmuz_sehitler_koprusu",
+      "name": "15 Temmuz Şehitler Köprüsü"
+    },
+    {
+      "id": "29_ekim_cumhuriyet",
+      "name": "29 Ekim Cumhuriyet"
+    },
+    {
+      "id": "4_levent",
+      "name": "4.Levent"
+    },
+    {
+      "id": "50_yil_bastabya",
+      "name": "50.Yıl-Baştabya"
+    },
+    {
+      "id": "acibadem",
+      "name": "Acıbadem"
+    },
+    {
+      "id": "acibadem_metrobus",
+      "name": "Acıbadem"
+    },
+    {
+      "id": "akincilar",
+      "name": "Akıncılar"
+    },
+    {
+      "id": "aksaray",
+      "name": "Aksaray",
+      "complexId": "cx_yusufpasa"
+    },
+    {
+      "id": "ali_fuat_basgil",
+      "name": "Ali Fuat Başgil"
+    },
+    {
+      "id": "alibeykoy",
+      "name": "Alibeyköy",
+      "complexId": "cx_alibeykoy_metro"
+    },
+    {
+      "id": "alibeykoy_cep_otogari",
+      "name": "Alibeyköy Cep Otogarı"
+    },
+    {
+      "id": "alibeykoy_merkez",
+      "name": "Alibeyköy Merkez"
+    },
+    {
+      "id": "alibeykoy_metro",
+      "name": "Alibeyköy Metro",
+      "complexId": "cx_alibeykoy_metro"
+    },
+    {
+      "id": "altinsehir",
+      "name": "Altınşehir"
+    },
+    {
+      "id": "altunizade",
+      "name": "Altunizade",
+      "complexId": "cx_altunizade_metrobus"
+    },
+    {
+      "id": "altunizade_metrobus",
+      "name": "Altunizade",
+      "complexId": "cx_altunizade_metrobus"
+    },
+    {
+      "id": "arnavutkoy_hastane",
+      "name": "Arnavutköy Hastane"
+    },
+    {
+      "id": "asiyan",
+      "name": "Aşiyan"
+    },
+    {
+      "id": "atakoy",
+      "name": "Ataköy"
+    },
+    {
+      "id": "atakoy_sirinevler",
+      "name": "Ataköy-Şirinevler",
+      "complexId": "cx_sirinevler"
+    },
+    {
+      "id": "atalar",
+      "name": "Atalar"
+    },
+    {
+      "id": "ataturk_havalimani",
+      "name": "Atatürk Havalimanı"
+    },
+    {
+      "id": "ataturk_mahallesi",
+      "name": "Atatürk Mahallesi"
+    },
+    {
+      "id": "ataturk_oto_sanayi",
+      "name": "Atatürk Oto Sanayi"
+    },
+    {
+      "id": "avcilar_merkez_universite_kampusu",
+      "name": "Avcılar Merkez-Üniversite Kampüsü"
+    },
+    {
+      "id": "aydintepe",
+      "name": "Aydıntepe"
+    },
+    {
+      "id": "ayrilik_cesmesi",
+      "name": "Ayrılık Çeşmesi"
+    },
+    {
+      "id": "aysekadin",
+      "name": "Ayşekadın"
+    },
+    {
+      "id": "ayvansaray",
+      "name": "Ayvansaray",
+      "complexId": "cx_ayvansaray_eyupsultan"
+    },
+    {
+      "id": "ayvansaray_eyupsultan",
+      "name": "Ayvansaray-Eyüpsultan",
+      "complexId": "cx_ayvansaray_eyupsultan"
+    },
+    {
+      "id": "bagcilar_meydan",
+      "name": "Bağcılar Meydan"
+    },
+    {
+      "id": "baglarbasi",
+      "name": "Bağlarbaşı"
+    },
+    {
+      "id": "bahariye",
+      "name": "Bahariye"
+    },
+    {
+      "id": "bahcelievler",
+      "name": "Bahçelievler",
+      "complexId": "cx_bahcelievler_metrobus"
+    },
+    {
+      "id": "bahcelievler_metrobus",
+      "name": "Bahçelievler",
+      "complexId": "cx_bahcelievler_metrobus"
+    },
+    {
+      "id": "bakirkoy",
+      "name": "Bakırköy",
+      "complexId": "cx_bakirkoy"
+    },
+    {
+      "id": "bakirkoy_incirli",
+      "name": "Bakırköy-İncirli",
+      "complexId": "cx_incirli_metrobus"
+    },
+    {
+      "id": "bakirkoy_sahil",
+      "name": "Bakırköy Sahil"
+    },
+    {
+      "id": "balat",
+      "name": "Balat"
+    },
+    {
+      "id": "basak",
+      "name": "Başak"
+    },
+    {
+      "id": "basak_konutlari",
+      "name": "Başak Konutları"
+    },
+    {
+      "id": "basaksehir_metrokent",
+      "name": "Başakşehir-Metrokent"
+    },
+    {
+      "id": "bayrampasa_maltepe",
+      "name": "Bayrampaşa-Maltepe",
+      "complexId": "cx_bayrampasa_maltepe_metrobus"
+    },
+    {
+      "id": "bayrampasa_maltepe_metrobus",
+      "name": "Bayrampaşa-Maltepe",
+      "complexId": "cx_bayrampasa_maltepe_metrobus"
+    },
+    {
+      "id": "besyol",
+      "name": "Beşyol"
+    },
+    {
+      "id": "beyazit_kapalicarsi",
+      "name": "Beyazıt-Kapalıçarşı"
+    },
+    {
+      "id": "beykent",
+      "name": "Beykent"
+    },
+    {
+      "id": "beylikduzu",
+      "name": "Beylikdüzü"
+    },
+    {
+      "id": "beylikduzu_belediye",
+      "name": "Beylikdüzü Belediye"
+    },
+    {
+      "id": "beylikduzu_son_durak",
+      "name": "Beylikdüzü Son Durak"
+    },
+    {
+      "id": "beyoglu_tunel",
+      "name": "Beyoğlu Tünel"
+    },
+    {
+      "id": "bogazici_universitesi_hisarustu",
+      "name": "Boğaziçi Üniversitesi/Hisarüstü"
+    },
+    {
+      "id": "bosna_cukurcesme",
+      "name": "Bosna Çukurçeşme"
+    },
+    {
+      "id": "bostanci",
+      "name": "Bostancı"
+    },
+    {
+      "id": "bulgurlu",
+      "name": "Bulgurlu"
+    },
+    {
+      "id": "burhaniye",
+      "name": "Burhaniye"
+    },
+    {
+      "id": "caglayan",
+      "name": "Çağlayan",
+      "complexId": "cx_caglayan_metrobus"
+    },
+    {
+      "id": "caglayan_metrobus",
+      "name": "Çağlayan",
+      "complexId": "cx_caglayan_metrobus"
+    },
+    {
+      "id": "cakmak",
+      "name": "Çakmak"
+    },
+    {
+      "id": "cankurtaran",
+      "name": "Cankurtaran"
+    },
+    {
+      "id": "capa_sehremini",
+      "name": "Çapa-Şehremini"
+    },
+    {
+      "id": "carsi",
+      "name": "Çarşı"
+    },
+    {
+      "id": "cayirova",
+      "name": "Çayırova"
+    },
+    {
+      "id": "cebeci",
+      "name": "Cebeci"
+    },
+    {
+      "id": "cekmekoy",
+      "name": "Çekmeköy"
+    },
+    {
+      "id": "cemberlitas",
+      "name": "Çemberlitaş"
+    },
+    {
+      "id": "cennet_mahallesi",
+      "name": "Cennet Mahallesi"
+    },
+    {
+      "id": "cerrahpasa",
+      "name": "Cerrahpaşa"
+    },
+    {
+      "id": "cevizli",
+      "name": "Cevizli"
+    },
+    {
+      "id": "cevizlibag",
+      "name": "Cevizlibağ",
+      "complexId": "cx_cevizlibag"
+    },
+    {
+      "id": "cevizlibag_aoy",
+      "name": "Cevizlibağ-AÖY",
+      "complexId": "cx_cevizlibag"
+    },
+    {
+      "id": "cibali",
+      "name": "Cibali"
+    },
+    {
+      "id": "cihangir_universite_mahallesi",
+      "name": "Cihangir-Üniversite Mahallesi"
+    },
+    {
+      "id": "circir_mahallesi",
+      "name": "Çırçır Mahallesi"
+    },
+    {
+      "id": "cobancesme",
+      "name": "Çobançeşme"
+    },
+    {
+      "id": "cumhuriyet_mahallesi",
+      "name": "Cumhuriyet Mahallesi"
+    },
+    {
+      "id": "cumhuriyet_mahallesi_metrobus",
+      "name": "Cumhuriyet Mahallesi"
+    },
+    {
+      "id": "darica",
+      "name": "Darıca"
+    },
+    {
+      "id": "darulaceze_perpa",
+      "name": "Darülaceze-Perpa"
+    },
+    {
+      "id": "darussafaka",
+      "name": "Darüşşafaka"
+    },
+    {
+      "id": "davutpasa_ytu",
+      "name": "Davutpaşa-YTÜ"
+    },
+    {
+      "id": "demirkapi",
+      "name": "Demirkapı"
+    },
+    {
+      "id": "dogu_sanayi",
+      "name": "Doğu Sanayi"
+    },
+    {
+      "id": "dtm_istanbul_fuar_merkezi",
+      "name": "DTM-İstanbul Fuar Merkezi"
+    },
+    {
+      "id": "dudullu",
+      "name": "Dudullu"
+    },
+    {
+      "id": "edirnekapi",
+      "name": "Edirnekapı",
+      "complexId": "cx_edirnekapi_metrobus"
+    },
+    {
+      "id": "edirnekapi_metrobus",
+      "name": "Edirnekapı",
+      "complexId": "cx_edirnekapi_metrobus"
+    },
+    {
+      "id": "emin_ali_pasa",
+      "name": "Emin Ali Paşa"
+    },
+    {
+      "id": "eminonu",
+      "name": "Eminönü"
+    },
+    {
+      "id": "emniyet_fatih",
+      "name": "Emniyet-Fatih"
+    },
+    {
+      "id": "erenkoy",
+      "name": "Erenköy"
+    },
+    {
+      "id": "esenkent",
+      "name": "Esenkent"
+    },
+    {
+      "id": "esenler",
+      "name": "Esenler"
+    },
+    {
+      "id": "etiler",
+      "name": "Etiler"
+    },
+    {
+      "id": "eyupsultan_devlet_hastanesi",
+      "name": "Eyüpsultan Devlet Hastanesi"
+    },
+    {
+      "id": "eyupsultan_teleferik",
+      "name": "Eyüpsultan Teleferik"
+    },
+    {
+      "id": "fatih",
+      "name": "Fatih"
+    },
+    {
+      "id": "fener",
+      "name": "Fener"
+    },
+    {
+      "id": "feneryolu",
+      "name": "Feneryolu"
+    },
+    {
+      "id": "feshane",
+      "name": "Feshane"
+    },
+    {
+      "id": "fetihkapi",
+      "name": "Fetihkapı"
+    },
+    {
+      "id": "fevzi_cakmak_hastane",
+      "name": "Fevzi Çakmak-Hastane"
+    },
+    {
+      "id": "fikirtepe",
+      "name": "Fikirtepe"
+    },
+    {
+      "id": "findikli_mimar_sinan_u",
+      "name": "Fındıklı-Mimar Sinan Ü."
+    },
+    {
+      "id": "findikzade",
+      "name": "Fındıkzade"
+    },
+    {
+      "id": "fistikagaci",
+      "name": "Fıstıkağacı"
+    },
+    {
+      "id": "florya",
+      "name": "Florya",
+      "complexId": "cx_florya_metrobus"
+    },
+    {
+      "id": "florya_akvaryum",
+      "name": "Florya Akvaryum"
+    },
+    {
+      "id": "florya_metrobus",
+      "name": "Florya",
+      "complexId": "cx_florya_metrobus"
+    },
+    {
+      "id": "fulya",
+      "name": "Fulya"
+    },
+    {
+      "id": "galatasaray_lisesi",
+      "name": "Galatasaray Lisesi"
+    },
+    {
+      "id": "gayrettepe",
+      "name": "Gayrettepe",
+      "complexId": "cx_zincirlikuyu"
+    },
+    {
+      "id": "gebze",
+      "name": "Gebze"
+    },
+    {
+      "id": "giyimkent_tekstilkent",
+      "name": "Giyimkent-Tekstilkent"
+    },
+    {
+      "id": "gokturk",
+      "name": "Göktürk"
+    },
+    {
+      "id": "goztepe",
+      "name": "Göztepe"
+    },
+    {
+      "id": "goztepe_mahallesi",
+      "name": "Göztepe Mahallesi"
+    },
+    {
+      "id": "goztepe_marmaray",
+      "name": "Göztepe"
+    },
+    {
+      "id": "gulhane",
+      "name": "Gülhane"
+    },
+    {
+      "id": "gulsuyu",
+      "name": "Gülsuyu"
+    },
+    {
+      "id": "gunestepe",
+      "name": "Güneştepe"
+    },
+    {
+      "id": "gungoren",
+      "name": "Güngören"
+    },
+    {
+      "id": "guzelyali",
+      "name": "Güzelyalı"
+    },
+    {
+      "id": "guzelyart",
+      "name": "Güzelyart"
+    },
+    {
+      "id": "haci_sukru",
+      "name": "Hacı Şükrü"
+    },
+    {
+      "id": "haciosman",
+      "name": "Hacıosman"
+    },
+    {
+      "id": "halic",
+      "name": "Haliç",
+      "complexId": "cx_kucukpazar"
+    },
+    {
+      "id": "halicioglu",
+      "name": "Halıcıoğlu"
+    },
+    {
+      "id": "halkali",
+      "name": "Halkalı"
+    },
+    {
+      "id": "halkali_caddesi",
+      "name": "Halkalı Caddesi"
+    },
+    {
+      "id": "halkali_stadi",
+      "name": "Halkalı Stadı"
+    },
+    {
+      "id": "haramidere",
+      "name": "Haramidere"
+    },
+    {
+      "id": "haramidere_sanayi",
+      "name": "Haramidere Sanayi"
+    },
+    {
+      "id": "hasanpasa",
+      "name": "Hasanpaşa"
+    },
+    {
+      "id": "hasdal",
+      "name": "Hasdal"
+    },
+    {
+      "id": "haseki",
+      "name": "Haseki"
+    },
+    {
+      "id": "hastane_adliye",
+      "name": "Hastane-Adliye"
+    },
+    {
+      "id": "haznedar",
+      "name": "Haznedar"
+    },
+    {
+      "id": "huseyin_aga_camii",
+      "name": "Hüseyin Ağa Camii"
+    },
+    {
+      "id": "huzur",
+      "name": "Huzur"
+    },
+    {
+      "id": "huzurevi",
+      "name": "Huzurevi"
+    },
+    {
+      "id": "ibb_sosyal_tesisleri",
+      "name": "İBB Sosyal Tesisleri"
+    },
+    {
+      "id": "ibn_haldun_universitesi",
+      "name": "İbn Haldun Üniversitesi"
+    },
+    {
+      "id": "icerenkoy",
+      "name": "İçerenköy"
+    },
+    {
+      "id": "icmeler",
+      "name": "İçmeler"
+    },
+    {
+      "id": "idealtepe",
+      "name": "İdealtepe"
+    },
+    {
+      "id": "ihlamurkuyu",
+      "name": "Ihlamurkuyu"
+    },
+    {
+      "id": "ihsaniye",
+      "name": "İhsaniye"
+    },
+    {
+      "id": "ikitelli_sanayi",
+      "name": "İkitelli Sanayi"
+    },
+    {
+      "id": "ilkyuva",
+      "name": "İlkyuva"
+    },
+    {
+      "id": "imam_hatip_lisesi",
+      "name": "İmam Hatip Lisesi"
+    },
+    {
+      "id": "imes",
+      "name": "İMES"
+    },
+    {
+      "id": "incirli",
+      "name": "İncirli",
+      "complexId": "cx_incirli_metrobus"
+    },
+    {
+      "id": "incirli_metrobus",
+      "name": "İncirli",
+      "complexId": "cx_incirli_metrobus"
+    },
+    {
+      "id": "istanbul_havalimani",
+      "name": "İstanbul Havalimanı"
+    },
+    {
+      "id": "istoc",
+      "name": "İSTOÇ"
+    },
+    {
+      "id": "itu_ayazaga",
+      "name": "İTÜ-Ayazağa"
+    },
+    {
+      "id": "kabatas",
+      "name": "Kabataş"
+    },
+    {
+      "id": "kadikoy",
+      "name": "Kadıköy"
+    },
+    {
+      "id": "kagithane",
+      "name": "Kağıthane"
+    },
+    {
+      "id": "karadeniz",
+      "name": "Karadeniz"
+    },
+    {
+      "id": "karadeniz_mahallesi",
+      "name": "Karadeniz Mahallesi",
+      "complexId": "cx_kiptas_venezia"
+    },
+    {
+      "id": "karakoy",
+      "name": "Karaköy"
+    },
+    {
+      "id": "kargo_terminali",
+      "name": "Kargo Terminali"
+    },
+    {
+      "id": "kartal",
+      "name": "Kartal"
+    },
+    {
+      "id": "kartal_marmaray",
+      "name": "Kartal"
+    },
+    {
+      "id": "kayasehir",
+      "name": "Kayaşehir",
+      "complexId": "cx_kayasehir"
+    },
+    {
+      "id": "kayasehir_merkez",
+      "name": "Kayaşehir Merkez",
+      "complexId": "cx_kayasehir"
+    },
+    {
+      "id": "kayisdagi",
+      "name": "Kayışdağı"
+    },
+    {
+      "id": "kaynarca",
+      "name": "Kaynarca"
+    },
+    {
+      "id": "kazim_karabekir",
+      "name": "Kazım Karabekir"
+    },
+    {
+      "id": "kazlicesme",
+      "name": "Kazlıçeşme"
+    },
+    {
+      "id": "kemerburgaz",
+      "name": "Kemerburgaz"
+    },
+    {
+      "id": "kiptas_venezia",
+      "name": "Kiptaş-Venezia",
+      "complexId": "cx_kiptas_venezia"
+    },
+    {
+      "id": "kirazli_bagcilar",
+      "name": "Kirazlı-Bağcılar"
+    },
+    {
+      "id": "kisikli",
+      "name": "Kısıklı"
+    },
+    {
+      "id": "kocamustafapasa",
+      "name": "Kocamustafapaşa"
+    },
+    {
+      "id": "kocatepe",
+      "name": "Kocatepe"
+    },
+    {
+      "id": "kozyatagi",
+      "name": "Kozyatağı"
+    },
+    {
+      "id": "kucukbakkalkoy",
+      "name": "Küçükbakkalköy"
+    },
+    {
+      "id": "kucukcekmece",
+      "name": "Küçükçekmece",
+      "complexId": "cx_kucukcekmece_metrobus"
+    },
+    {
+      "id": "kucukcekmece_metrobus",
+      "name": "Küçükçekmece",
+      "complexId": "cx_kucukcekmece_metrobus"
+    },
+    {
+      "id": "kucukpazar",
+      "name": "Küçükpazar",
+      "complexId": "cx_kucukpazar"
+    },
+    {
+      "id": "kucukyali",
+      "name": "Küçükyalı"
+    },
+    {
+      "id": "kucukyali_marmaray",
+      "name": "Küçükyalı"
+    },
+    {
+      "id": "kumkapi",
+      "name": "Kumkapı"
+    },
+    {
+      "id": "kurtkoy",
+      "name": "Kurtköy"
+    },
+    {
+      "id": "laleli_istanbul_u",
+      "name": "Laleli-İstanbul Ü.",
+      "complexId": "cx_laleli_istanbul_u"
+    },
+    {
+      "id": "levent",
+      "name": "Levent"
+    },
+    {
+      "id": "mahmutbey",
+      "name": "Mahmutbey"
+    },
+    {
+      "id": "maltepe",
+      "name": "Maltepe"
+    },
+    {
+      "id": "maltepe_marmaray",
+      "name": "Maltepe"
+    },
+    {
+      "id": "masko",
+      "name": "MASKO"
+    },
+    {
+      "id": "mecidiyekoy",
+      "name": "Mecidiyeköy",
+      "complexId": "cx_mecidiyekoy_metrobus"
+    },
+    {
+      "id": "mecidiyekoy_metrobus",
+      "name": "Mecidiyeköy",
+      "complexId": "cx_mecidiyekoy_metrobus"
+    },
+    {
+      "id": "meclis",
+      "name": "Meclis"
+    },
+    {
+      "id": "mehmet_akif",
+      "name": "Mehmet Akif"
+    },
+    {
+      "id": "menderes",
+      "name": "Menderes"
+    },
+    {
+      "id": "merkezefendi",
+      "name": "Merkezefendi"
+    },
+    {
+      "id": "merter",
+      "name": "Merter",
+      "complexId": "cx_merter_metrobus"
+    },
+    {
+      "id": "merter_metrobus",
+      "name": "Merter",
+      "complexId": "cx_merter_metrobus"
+    },
+    {
+      "id": "merter_tekstil_merkezi",
+      "name": "Merter Tekstil Merkezi"
+    },
+    {
+      "id": "mescid_i_selam",
+      "name": "Mescid-i Selam"
+    },
+    {
+      "id": "mevlana",
+      "name": "Mevlana"
+    },
+    {
+      "id": "mimar_sinan",
+      "name": "Mimar Sinan"
+    },
+    {
+      "id": "mithatpasa",
+      "name": "Mithatpaşa"
+    },
+    {
+      "id": "modoko_keyap",
+      "name": "MODOKO-KEYAP"
+    },
+    {
+      "id": "molla_gurani",
+      "name": "Molla Gürani"
+    },
+    {
+      "id": "mustafa_kemal",
+      "name": "Mustafa Kemal"
+    },
+    {
+      "id": "mustafa_kemalpasa",
+      "name": "Mustafa Kemalpaşa"
+    },
+    {
+      "id": "necip_fazil",
+      "name": "Necip Fazıl"
+    },
+    {
+      "id": "nispetiye",
+      "name": "Nispetiye"
+    },
+    {
+      "id": "nurtepe",
+      "name": "Nurtepe"
+    },
+    {
+      "id": "odakule",
+      "name": "Odakule"
+    },
+    {
+      "id": "okmeydani",
+      "name": "Okmeydanı"
+    },
+    {
+      "id": "okmeydani_hastane",
+      "name": "Okmeydanı Hastane"
+    },
+    {
+      "id": "olimpiyat",
+      "name": "Olimpiyat",
+      "complexId": "cx_olimpiyat"
+    },
+    {
+      "id": "olimpiyatkoy",
+      "name": "Olimpiyatköy",
+      "complexId": "cx_olimpiyat"
+    },
+    {
+      "id": "onurkent",
+      "name": "Onurkent"
+    },
+    {
+      "id": "oruc_reis",
+      "name": "Oruç Reis"
+    },
+    {
+      "id": "osmanbey",
+      "name": "Osmanbey"
+    },
+    {
+      "id": "osmangazi",
+      "name": "Osmangazi"
+    },
+    {
+      "id": "otogar",
+      "name": "Otogar"
+    },
+    {
+      "id": "ozgurluk_meydani",
+      "name": "Özgürlük Meydanı",
+      "complexId": "cx_bakirkoy"
+    },
+    {
+      "id": "parseller",
+      "name": "Parseller"
+    },
+    {
+      "id": "pazartekke",
+      "name": "Pazartekke"
+    },
+    {
+      "id": "pendik",
+      "name": "Pendik"
+    },
+    {
+      "id": "pendik_marmaray",
+      "name": "Pendik"
+    },
+    {
+      "id": "rami",
+      "name": "Rami"
+    },
+    {
+      "id": "saadetdere_mahallesi",
+      "name": "Saadetdere Mahallesi"
+    },
+    {
+      "id": "sabiha_gokcen_havalimani",
+      "name": "Sabiha Gökçen Havalimanı"
+    },
+    {
+      "id": "sagmalcilar",
+      "name": "Sağmalcılar"
+    },
+    {
+      "id": "samandira_merkez",
+      "name": "Samandıra Merkez"
+    },
+    {
+      "id": "sanayi_mahallesi",
+      "name": "Sanayi Mahallesi"
+    },
+    {
+      "id": "sancaktepe",
+      "name": "Sancaktepe"
+    },
+    {
+      "id": "sancaktepe_sehir_hastanesi",
+      "name": "Sancaktepe Şehir Hastanesi"
+    },
+    {
+      "id": "sarigazi",
+      "name": "Sarıgazi"
+    },
+    {
+      "id": "sefakoy",
+      "name": "Sefaköy"
+    },
+    {
+      "id": "sehir_hastanesi",
+      "name": "Şehir Hastanesi"
+    },
+    {
+      "id": "sehitlik",
+      "name": "Şehitlik"
+    },
+    {
+      "id": "seyitnizam_aksemsettin",
+      "name": "Seyitnizam-Akşemsettin"
+    },
+    {
+      "id": "seyrantepe",
+      "name": "Seyrantepe"
+    },
+    {
+      "id": "silahtaraga_mahallesi",
+      "name": "Silahtarağa Mahallesi"
+    },
+    {
+      "id": "sirinevler",
+      "name": "Şirinevler",
+      "complexId": "cx_sirinevler"
+    },
+    {
+      "id": "sirkeci",
+      "name": "Sirkeci"
+    },
+    {
+      "id": "sishane",
+      "name": "Şişhane"
+    },
+    {
+      "id": "sisli_mecidiyekoy",
+      "name": "Şişli-Mecidiyeköy",
+      "complexId": "cx_mecidiyekoy_metrobus"
+    },
+    {
+      "id": "siteler",
+      "name": "Siteler"
+    },
+    {
+      "id": "soganli",
+      "name": "Soğanlı"
+    },
+    {
+      "id": "soganlik",
+      "name": "Soğanlık"
+    },
+    {
+      "id": "sogutlucesme",
+      "name": "Söğütlüçeşme",
+      "complexId": "cx_sogutlucesme_metrobus"
+    },
+    {
+      "id": "sogutlucesme_metrobus",
+      "name": "Söğütlüçeşme",
+      "complexId": "cx_sogutlucesme_metrobus"
+    },
+    {
+      "id": "suadiye",
+      "name": "Suadiye"
+    },
+    {
+      "id": "sukrubey",
+      "name": "Şükrübey"
+    },
+    {
+      "id": "sultanahmet",
+      "name": "Sultanahmet"
+    },
+    {
+      "id": "sultanbeyli",
+      "name": "Sultanbeyli"
+    },
+    {
+      "id": "sultanciftligi",
+      "name": "Sultançiftliği"
+    },
+    {
+      "id": "surayya_plaji",
+      "name": "Sürayya Plajı"
+    },
+    {
+      "id": "taksim",
+      "name": "Taksim"
+    },
+    {
+      "id": "taskopru",
+      "name": "Taşköprü"
+    },
+    {
+      "id": "tasoluk",
+      "name": "Taşoluk"
+    },
+    {
+      "id": "tavsantepe",
+      "name": "Tavşantepe"
+    },
+    {
+      "id": "terazidere",
+      "name": "Terazidere"
+    },
+    {
+      "id": "tersane",
+      "name": "Tersane"
+    },
+    {
+      "id": "topcular",
+      "name": "Topçular"
+    },
+    {
+      "id": "tophane",
+      "name": "Tophane"
+    },
+    {
+      "id": "topkapi",
+      "name": "Topkapı",
+      "complexId": "cx_topkapi_sehit_mustafa_cambaz"
+    },
+    {
+      "id": "topkapi_sehit_mustafa_cambaz",
+      "name": "Topkapı-Şehit Mustafa Cambaz",
+      "complexId": "cx_topkapi_sehit_mustafa_cambaz"
+    },
+    {
+      "id": "topkapi_ulubatli",
+      "name": "Topkapı-Ulubatlı",
+      "complexId": "cx_vatan"
+    },
+    {
+      "id": "toplu_konutlar",
+      "name": "Toplu Konutlar"
+    },
+    {
+      "id": "turgut_ozal",
+      "name": "Turgut Özal"
+    },
+    {
+      "id": "tuzla",
+      "name": "Tuzla"
+    },
+    {
+      "id": "ucyuzlu",
+      "name": "Üçyüzlü"
+    },
+    {
+      "id": "uluyol_berec",
+      "name": "Uluyol Bereç"
+    },
+    {
+      "id": "umraniye",
+      "name": "Ümraniye"
+    },
+    {
+      "id": "unalan",
+      "name": "Ünalan",
+      "complexId": "cx_uzuncayir"
+    },
+    {
+      "id": "universite",
+      "name": "Üniversite"
+    },
+    {
+      "id": "uskudar",
+      "name": "Üsküdar"
+    },
+    {
+      "id": "uzuncayir",
+      "name": "Uzunçayır",
+      "complexId": "cx_uzuncayir"
+    },
+    {
+      "id": "vadistanbul",
+      "name": "Vadistanbul"
+    },
+    {
+      "id": "vatan",
+      "name": "Vatan",
+      "complexId": "cx_vatan"
+    },
+    {
+      "id": "veysel_karani",
+      "name": "Veysel Karani"
+    },
+    {
+      "id": "veysel_karani_aksemsettin",
+      "name": "Veysel Karani-Akşemsettin"
+    },
+    {
+      "id": "vezneciler_istanbul_universitesi",
+      "name": "Vezneciler-İstanbul Üniversitesi",
+      "complexId": "cx_laleli_istanbul_u"
+    },
+    {
+      "id": "yakacik_adnan_kahveci",
+      "name": "Yakacık-Adnan Kahveci"
+    },
+    {
+      "id": "yamanevler",
+      "name": "Yamanevler"
+    },
+    {
+      "id": "yavuzselim",
+      "name": "Yavuzselim"
+    },
+    {
+      "id": "yayalar_seyhli",
+      "name": "Yayalar-Şeyhli"
+    },
+    {
+      "id": "yedikule",
+      "name": "Yedikule"
+    },
+    {
+      "id": "yenibosna",
+      "name": "Yenibosna",
+      "complexId": "cx_yenibosna_metrobus"
+    },
+    {
+      "id": "yenibosna_metrobus",
+      "name": "Yenibosna",
+      "complexId": "cx_yenibosna_metrobus"
+    },
+    {
+      "id": "yenikapi",
+      "name": "Yenikapı"
+    },
+    {
+      "id": "yenimahalle",
+      "name": "Yenimahalle"
+    },
+    {
+      "id": "yenimahalle_marmaray",
+      "name": "Yenimahalle"
+    },
+    {
+      "id": "yenisahra",
+      "name": "Yenisahra"
+    },
+    {
+      "id": "yesilkoy",
+      "name": "Yeşilköy"
+    },
+    {
+      "id": "yesilpinar",
+      "name": "Yeşilpınar"
+    },
+    {
+      "id": "yesilyurt",
+      "name": "Yeşilyurt"
+    },
+    {
+      "id": "yildiz",
+      "name": "Yıldız"
+    },
+    {
+      "id": "yildiztepe",
+      "name": "Yıldıztepe"
+    },
+    {
+      "id": "yunus",
+      "name": "Yunus"
+    },
+    {
+      "id": "yusufpasa",
+      "name": "Yusufpaşa",
+      "complexId": "cx_yusufpasa"
+    },
+    {
+      "id": "zeytinburnu",
+      "name": "Zeytinburnu",
+      "complexId": "cx_zeytinburnu_metrobus"
+    },
+    {
+      "id": "zeytinburnu_metrobus",
+      "name": "Zeytinburnu",
+      "complexId": "cx_zeytinburnu_metrobus"
+    },
+    {
+      "id": "zincirlikuyu",
+      "name": "Zincirlikuyu",
+      "complexId": "cx_zincirlikuyu"
+    },
+    {
+      "id": "ziya_gokalp_mahallesi",
+      "name": "Ziya Gökalp Mahallesi"
+    }
+  ],
+  "lines": [
+    {
+      "id": "M1A",
+      "name": "M1A Yenikapı–Atatürk Havalimanı",
+      "colorHex": "#E32219"
+    },
+    {
+      "id": "M1B",
+      "name": "M1B Yenikapı–Kirazlı-Bağcılar",
+      "colorHex": "#E32219"
+    },
+    {
+      "id": "M2",
+      "name": "M2 Yenikapı–Hacıosman",
+      "colorHex": "#009A44"
+    },
+    {
+      "id": "M3",
+      "name": "M3 Bakırköy Sahil–Kayaşehir Merkez",
+      "colorHex": "#00A9E0"
+    },
+    {
+      "id": "M4",
+      "name": "M4 Kadıköy–Sabiha Gökçen Havalimanı",
+      "colorHex": "#EC008C"
+    },
+    {
+      "id": "M5",
+      "name": "M5 Üsküdar–Sultanbeyli",
+      "colorHex": "#7F3F98"
+    },
+    {
+      "id": "M6",
+      "name": "M6 Levent–Boğaziçi Üniversitesi/Hisarüstü",
+      "colorHex": "#C7A07A"
+    },
+    {
+      "id": "M7",
+      "name": "M7 Yıldız–Mahmutbey",
+      "colorHex": "#F49AC1"
+    },
+    {
+      "id": "M8",
+      "name": "M8 Bostancı–Parseller",
+      "colorHex": "#00539F"
+    },
+    {
+      "id": "M9",
+      "name": "M9 Ataköy–Olimpiyat",
+      "colorHex": "#FFD200"
+    },
+    {
+      "id": "M11",
+      "name": "M11 Gayrettepe–İstanbul Havalimanı–Halkalı",
+      "colorHex": "#9E7FC8"
+    },
+    {
+      "id": "F1",
+      "name": "F1 Taksim–Kabataş Füniküler",
+      "colorHex": "#8B4513"
+    },
+    {
+      "id": "F2",
+      "name": "F2 Karaköy–Beyoğlu Tarihi Tünel",
+      "colorHex": "#8B4513"
+    },
+    {
+      "id": "F3",
+      "name": "F3 Seyrantepe–Vadistanbul Füniküler",
+      "colorHex": "#8B4513"
+    },
+    {
+      "id": "F4",
+      "name": "F4 Boğaziçi Üniversitesi/Hisarüstü–Aşiyan Füniküler",
+      "colorHex": "#8B4513"
+    },
+    {
+      "id": "T1",
+      "name": "T1 Kabataş–Bağcılar Tramvayı",
+      "colorHex": "#D4A017"
+    },
+    {
+      "id": "T2",
+      "name": "T2 Taksim–Tünel Nostaljik Tramvayı",
+      "colorHex": "#D4A017"
+    },
+    {
+      "id": "T4",
+      "name": "T4 Topkapı–Mescid-i Selam Tramvayı",
+      "colorHex": "#D4A017"
+    },
+    {
+      "id": "T5",
+      "name": "T5 Eminönü–Alibeyköy Cep Otogarı Tramvayı",
+      "colorHex": "#D4A017"
+    },
+    {
+      "id": "T6",
+      "name": "T6 Sirkeci–Kazlıçeşme Raylı Sistem Hattı",
+      "colorHex": "#D4A017"
+    },
+    {
+      "id": "Marmaray",
+      "name": "Marmaray B1 Halkalı–Gebze",
+      "colorHex": "#E4002B"
+    },
+    {
+      "id": "Metrobüs",
+      "name": "Metrobüs Beylikdüzü–Söğütlüçeşme",
+      "colorHex": "#FF6600"
+    }
+  ],
+  "segments": [
+    {
+      "line": "M1A",
+      "from": "yenikapi",
+      "to": "aksaray",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "aksaray",
+      "to": "emniyet_fatih",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "emniyet_fatih",
+      "to": "topkapi_ulubatli",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "topkapi_ulubatli",
+      "to": "bayrampasa_maltepe",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "bayrampasa_maltepe",
+      "to": "sagmalcilar",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "sagmalcilar",
+      "to": "kocatepe",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "kocatepe",
+      "to": "otogar",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "otogar",
+      "to": "terazidere",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "terazidere",
+      "to": "davutpasa_ytu",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "davutpasa_ytu",
+      "to": "merter",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "merter",
+      "to": "zeytinburnu",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "zeytinburnu",
+      "to": "bakirkoy_incirli",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "bakirkoy_incirli",
+      "to": "bahcelievler",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "bahcelievler",
+      "to": "atakoy_sirinevler",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "atakoy_sirinevler",
+      "to": "yenibosna",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "yenibosna",
+      "to": "dtm_istanbul_fuar_merkezi",
+      "minutes": 2
+    },
+    {
+      "line": "M1A",
+      "from": "dtm_istanbul_fuar_merkezi",
+      "to": "ataturk_havalimani",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "yenikapi",
+      "to": "aksaray",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "aksaray",
+      "to": "emniyet_fatih",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "emniyet_fatih",
+      "to": "topkapi_ulubatli",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "topkapi_ulubatli",
+      "to": "bayrampasa_maltepe",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "bayrampasa_maltepe",
+      "to": "sagmalcilar",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "sagmalcilar",
+      "to": "kocatepe",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "kocatepe",
+      "to": "otogar",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "otogar",
+      "to": "esenler",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "esenler",
+      "to": "menderes",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "menderes",
+      "to": "ucyuzlu",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "ucyuzlu",
+      "to": "bagcilar_meydan",
+      "minutes": 2
+    },
+    {
+      "line": "M1B",
+      "from": "bagcilar_meydan",
+      "to": "kirazli_bagcilar",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "yenikapi",
+      "to": "vezneciler_istanbul_universitesi",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "vezneciler_istanbul_universitesi",
+      "to": "halic",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "halic",
+      "to": "sishane",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "sishane",
+      "to": "taksim",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "taksim",
+      "to": "osmanbey",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "osmanbey",
+      "to": "sisli_mecidiyekoy",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "sisli_mecidiyekoy",
+      "to": "gayrettepe",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "gayrettepe",
+      "to": "levent",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "levent",
+      "to": "4_levent",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "4_levent",
+      "to": "sanayi_mahallesi",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "sanayi_mahallesi",
+      "to": "itu_ayazaga",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "itu_ayazaga",
+      "to": "ataturk_oto_sanayi",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "ataturk_oto_sanayi",
+      "to": "darussafaka",
+      "minutes": 2
+    },
+    {
+      "line": "M2",
+      "from": "darussafaka",
+      "to": "haciosman",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "bakirkoy_sahil",
+      "to": "ozgurluk_meydani",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "ozgurluk_meydani",
+      "to": "incirli",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "incirli",
+      "to": "haznedar",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "haznedar",
+      "to": "ilkyuva",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "ilkyuva",
+      "to": "yildiztepe",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "yildiztepe",
+      "to": "molla_gurani",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "molla_gurani",
+      "to": "kirazli_bagcilar",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "kirazli_bagcilar",
+      "to": "yenimahalle",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "yenimahalle",
+      "to": "mahmutbey",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "mahmutbey",
+      "to": "istoc",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "istoc",
+      "to": "ikitelli_sanayi",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "ikitelli_sanayi",
+      "to": "turgut_ozal",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "turgut_ozal",
+      "to": "siteler",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "siteler",
+      "to": "basak_konutlari",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "basak_konutlari",
+      "to": "basaksehir_metrokent",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "basaksehir_metrokent",
+      "to": "onurkent",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "onurkent",
+      "to": "sehir_hastanesi",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "sehir_hastanesi",
+      "to": "toplu_konutlar",
+      "minutes": 2
+    },
+    {
+      "line": "M3",
+      "from": "toplu_konutlar",
+      "to": "kayasehir_merkez",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "kadikoy",
+      "to": "ayrilik_cesmesi",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "ayrilik_cesmesi",
+      "to": "acibadem",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "acibadem",
+      "to": "unalan",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "unalan",
+      "to": "goztepe",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "goztepe",
+      "to": "yenisahra",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "yenisahra",
+      "to": "kozyatagi",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "kozyatagi",
+      "to": "bostanci",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "bostanci",
+      "to": "kucukyali",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "kucukyali",
+      "to": "maltepe",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "maltepe",
+      "to": "huzurevi",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "huzurevi",
+      "to": "gulsuyu",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "gulsuyu",
+      "to": "esenkent",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "esenkent",
+      "to": "hastane_adliye",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "hastane_adliye",
+      "to": "soganlik",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "soganlik",
+      "to": "kartal",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "kartal",
+      "to": "yakacik_adnan_kahveci",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "yakacik_adnan_kahveci",
+      "to": "pendik",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "pendik",
+      "to": "tavsantepe",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "tavsantepe",
+      "to": "fevzi_cakmak_hastane",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "fevzi_cakmak_hastane",
+      "to": "yayalar_seyhli",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "yayalar_seyhli",
+      "to": "kurtkoy",
+      "minutes": 2
+    },
+    {
+      "line": "M4",
+      "from": "kurtkoy",
+      "to": "sabiha_gokcen_havalimani",
+      "minutes": 4
+    },
+    {
+      "line": "M5",
+      "from": "uskudar",
+      "to": "fistikagaci",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "fistikagaci",
+      "to": "baglarbasi",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "baglarbasi",
+      "to": "altunizade",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "altunizade",
+      "to": "kisikli",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "kisikli",
+      "to": "bulgurlu",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "bulgurlu",
+      "to": "umraniye",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "umraniye",
+      "to": "carsi",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "carsi",
+      "to": "yamanevler",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "yamanevler",
+      "to": "cakmak",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "cakmak",
+      "to": "ihlamurkuyu",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "ihlamurkuyu",
+      "to": "altinsehir",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "altinsehir",
+      "to": "imam_hatip_lisesi",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "imam_hatip_lisesi",
+      "to": "dudullu",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "dudullu",
+      "to": "necip_fazil",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "necip_fazil",
+      "to": "cekmekoy",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "cekmekoy",
+      "to": "meclis",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "meclis",
+      "to": "sarigazi",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "sarigazi",
+      "to": "sancaktepe_sehir_hastanesi",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "sancaktepe_sehir_hastanesi",
+      "to": "sancaktepe",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "sancaktepe",
+      "to": "samandira_merkez",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "samandira_merkez",
+      "to": "veysel_karani",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "veysel_karani",
+      "to": "hasanpasa",
+      "minutes": 2
+    },
+    {
+      "line": "M5",
+      "from": "hasanpasa",
+      "to": "sultanbeyli",
+      "minutes": 2
+    },
+    {
+      "line": "M6",
+      "from": "levent",
+      "to": "nispetiye",
+      "minutes": 2
+    },
+    {
+      "line": "M6",
+      "from": "nispetiye",
+      "to": "etiler",
+      "minutes": 2
+    },
+    {
+      "line": "M6",
+      "from": "etiler",
+      "to": "bogazici_universitesi_hisarustu",
+      "minutes": 3
+    },
+    {
+      "line": "M7",
+      "from": "yildiz",
+      "to": "fulya",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "fulya",
+      "to": "mecidiyekoy",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "mecidiyekoy",
+      "to": "caglayan",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "caglayan",
+      "to": "kagithane",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "kagithane",
+      "to": "nurtepe",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "nurtepe",
+      "to": "alibeykoy",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "alibeykoy",
+      "to": "circir_mahallesi",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "circir_mahallesi",
+      "to": "veysel_karani_aksemsettin",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "veysel_karani_aksemsettin",
+      "to": "yesilpinar",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "yesilpinar",
+      "to": "kazim_karabekir",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "kazim_karabekir",
+      "to": "yenimahalle",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "yenimahalle",
+      "to": "karadeniz_mahallesi",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "karadeniz_mahallesi",
+      "to": "giyimkent_tekstilkent",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "giyimkent_tekstilkent",
+      "to": "oruc_reis",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "oruc_reis",
+      "to": "goztepe_mahallesi",
+      "minutes": 2
+    },
+    {
+      "line": "M7",
+      "from": "goztepe_mahallesi",
+      "to": "mahmutbey",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "bostanci",
+      "to": "emin_ali_pasa",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "emin_ali_pasa",
+      "to": "aysekadin",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "aysekadin",
+      "to": "kozyatagi",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "kozyatagi",
+      "to": "kucukbakkalkoy",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "kucukbakkalkoy",
+      "to": "icerenkoy",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "icerenkoy",
+      "to": "kayisdagi",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "kayisdagi",
+      "to": "mevlana",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "mevlana",
+      "to": "imes",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "imes",
+      "to": "modoko_keyap",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "modoko_keyap",
+      "to": "dudullu",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "dudullu",
+      "to": "huzur",
+      "minutes": 2
+    },
+    {
+      "line": "M8",
+      "from": "huzur",
+      "to": "parseller",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "atakoy",
+      "to": "yenibosna",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "yenibosna",
+      "to": "cobancesme",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "cobancesme",
+      "to": "29_ekim_cumhuriyet",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "29_ekim_cumhuriyet",
+      "to": "dogu_sanayi",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "dogu_sanayi",
+      "to": "mimar_sinan",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "mimar_sinan",
+      "to": "15_temmuz",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "15_temmuz",
+      "to": "halkali_caddesi",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "halkali_caddesi",
+      "to": "ataturk_mahallesi",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "ataturk_mahallesi",
+      "to": "bahariye",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "bahariye",
+      "to": "masko",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "masko",
+      "to": "ikitelli_sanayi",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "ikitelli_sanayi",
+      "to": "ziya_gokalp_mahallesi",
+      "minutes": 2
+    },
+    {
+      "line": "M9",
+      "from": "ziya_gokalp_mahallesi",
+      "to": "olimpiyat",
+      "minutes": 2
+    },
+    {
+      "line": "M11",
+      "from": "gayrettepe",
+      "to": "kagithane",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "kagithane",
+      "to": "hasdal",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "hasdal",
+      "to": "kemerburgaz",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "kemerburgaz",
+      "to": "gokturk",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "gokturk",
+      "to": "ihsaniye",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "ihsaniye",
+      "to": "istanbul_havalimani",
+      "minutes": 6
+    },
+    {
+      "line": "M11",
+      "from": "istanbul_havalimani",
+      "to": "kargo_terminali",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "kargo_terminali",
+      "to": "tasoluk",
+      "minutes": 5
+    },
+    {
+      "line": "M11",
+      "from": "tasoluk",
+      "to": "arnavutkoy_hastane",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "arnavutkoy_hastane",
+      "to": "ibn_haldun_universitesi",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "ibn_haldun_universitesi",
+      "to": "kayasehir",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "kayasehir",
+      "to": "olimpiyatkoy",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "olimpiyatkoy",
+      "to": "halkali_stadi",
+      "minutes": 4
+    },
+    {
+      "line": "M11",
+      "from": "halkali_stadi",
+      "to": "halkali",
+      "minutes": 4
+    },
+    {
+      "line": "F1",
+      "from": "taksim",
+      "to": "kabatas",
+      "minutes": 2.5
+    },
+    {
+      "line": "F2",
+      "from": "karakoy",
+      "to": "beyoglu_tunel",
+      "minutes": 2.5
+    },
+    {
+      "line": "F3",
+      "from": "seyrantepe",
+      "to": "vadistanbul",
+      "minutes": 2.5
+    },
+    {
+      "line": "F4",
+      "from": "bogazici_universitesi_hisarustu",
+      "to": "asiyan",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "kabatas",
+      "to": "findikli_mimar_sinan_u",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "findikli_mimar_sinan_u",
+      "to": "tophane",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "tophane",
+      "to": "karakoy",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "karakoy",
+      "to": "eminonu",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "eminonu",
+      "to": "sirkeci",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "sirkeci",
+      "to": "gulhane",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "gulhane",
+      "to": "sultanahmet",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "sultanahmet",
+      "to": "cemberlitas",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "cemberlitas",
+      "to": "beyazit_kapalicarsi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "beyazit_kapalicarsi",
+      "to": "laleli_istanbul_u",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "laleli_istanbul_u",
+      "to": "aksaray",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "aksaray",
+      "to": "yusufpasa",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "yusufpasa",
+      "to": "haseki",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "haseki",
+      "to": "findikzade",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "findikzade",
+      "to": "capa_sehremini",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "capa_sehremini",
+      "to": "pazartekke",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "pazartekke",
+      "to": "topkapi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "topkapi",
+      "to": "cevizlibag_aoy",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "cevizlibag_aoy",
+      "to": "merkezefendi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "merkezefendi",
+      "to": "seyitnizam_aksemsettin",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "seyitnizam_aksemsettin",
+      "to": "mithatpasa",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "mithatpasa",
+      "to": "zeytinburnu",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "zeytinburnu",
+      "to": "mehmet_akif",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "mehmet_akif",
+      "to": "merter_tekstil_merkezi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "merter_tekstil_merkezi",
+      "to": "gungoren",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "gungoren",
+      "to": "akincilar",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "akincilar",
+      "to": "soganli",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "soganli",
+      "to": "yavuzselim",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "yavuzselim",
+      "to": "gunestepe",
+      "minutes": 2.5
+    },
+    {
+      "line": "T1",
+      "from": "gunestepe",
+      "to": "bagcilar_meydan",
+      "minutes": 2.5
+    },
+    {
+      "line": "T2",
+      "from": "taksim",
+      "to": "huseyin_aga_camii",
+      "minutes": 2.5
+    },
+    {
+      "line": "T2",
+      "from": "huseyin_aga_camii",
+      "to": "galatasaray_lisesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T2",
+      "from": "galatasaray_lisesi",
+      "to": "odakule",
+      "minutes": 2.5
+    },
+    {
+      "line": "T2",
+      "from": "odakule",
+      "to": "beyoglu_tunel",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "topkapi",
+      "to": "fetihkapi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "fetihkapi",
+      "to": "vatan",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "vatan",
+      "to": "edirnekapi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "edirnekapi",
+      "to": "sehitlik",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "sehitlik",
+      "to": "demirkapi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "demirkapi",
+      "to": "topcular",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "topcular",
+      "to": "rami",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "rami",
+      "to": "uluyol_berec",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "uluyol_berec",
+      "to": "sagmalcilar",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "sagmalcilar",
+      "to": "bosna_cukurcesme",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "bosna_cukurcesme",
+      "to": "ali_fuat_basgil",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "ali_fuat_basgil",
+      "to": "taskopru",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "taskopru",
+      "to": "karadeniz",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "karadeniz",
+      "to": "kiptas_venezia",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "kiptas_venezia",
+      "to": "cumhuriyet_mahallesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "cumhuriyet_mahallesi",
+      "to": "50_yil_bastabya",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "50_yil_bastabya",
+      "to": "haci_sukru",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "haci_sukru",
+      "to": "yenimahalle",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "yenimahalle",
+      "to": "sultanciftligi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "sultanciftligi",
+      "to": "cebeci",
+      "minutes": 2.5
+    },
+    {
+      "line": "T4",
+      "from": "cebeci",
+      "to": "mescid_i_selam",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "eminonu",
+      "to": "kucukpazar",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "kucukpazar",
+      "to": "cibali",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "cibali",
+      "to": "fener",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "fener",
+      "to": "balat",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "balat",
+      "to": "ayvansaray",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "ayvansaray",
+      "to": "feshane",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "feshane",
+      "to": "eyupsultan_teleferik",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "eyupsultan_teleferik",
+      "to": "eyupsultan_devlet_hastanesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "eyupsultan_devlet_hastanesi",
+      "to": "silahtaraga_mahallesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "silahtaraga_mahallesi",
+      "to": "universite",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "universite",
+      "to": "alibeykoy_merkez",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "alibeykoy_merkez",
+      "to": "alibeykoy_metro",
+      "minutes": 2.5
+    },
+    {
+      "line": "T5",
+      "from": "alibeykoy_metro",
+      "to": "alibeykoy_cep_otogari",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "sirkeci",
+      "to": "cankurtaran",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "cankurtaran",
+      "to": "kumkapi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "kumkapi",
+      "to": "yenikapi",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "yenikapi",
+      "to": "cerrahpasa",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "cerrahpasa",
+      "to": "kocamustafapasa",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "kocamustafapasa",
+      "to": "yedikule",
+      "minutes": 2.5
+    },
+    {
+      "line": "T6",
+      "from": "yedikule",
+      "to": "kazlicesme",
+      "minutes": 2.5
+    },
+    {
+      "line": "Marmaray",
+      "from": "halkali",
+      "to": "mustafa_kemal",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "mustafa_kemal",
+      "to": "kucukcekmece",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "kucukcekmece",
+      "to": "florya",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "florya",
+      "to": "florya_akvaryum",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "florya_akvaryum",
+      "to": "yesilkoy",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "yesilkoy",
+      "to": "yesilyurt",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "yesilyurt",
+      "to": "atakoy",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "atakoy",
+      "to": "bakirkoy",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "bakirkoy",
+      "to": "yenimahalle_marmaray",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "yenimahalle_marmaray",
+      "to": "zeytinburnu",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "zeytinburnu",
+      "to": "kazlicesme",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "kazlicesme",
+      "to": "yenikapi",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "yenikapi",
+      "to": "sirkeci",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "sirkeci",
+      "to": "uskudar",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "uskudar",
+      "to": "ayrilik_cesmesi",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "ayrilik_cesmesi",
+      "to": "sogutlucesme",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "sogutlucesme",
+      "to": "feneryolu",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "feneryolu",
+      "to": "goztepe_marmaray",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "goztepe_marmaray",
+      "to": "erenkoy",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "erenkoy",
+      "to": "suadiye",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "suadiye",
+      "to": "bostanci",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "bostanci",
+      "to": "kucukyali_marmaray",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "kucukyali_marmaray",
+      "to": "idealtepe",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "idealtepe",
+      "to": "surayya_plaji",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "surayya_plaji",
+      "to": "maltepe_marmaray",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "maltepe_marmaray",
+      "to": "cevizli",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "cevizli",
+      "to": "atalar",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "atalar",
+      "to": "basak",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "basak",
+      "to": "kartal_marmaray",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "kartal_marmaray",
+      "to": "yunus",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "yunus",
+      "to": "pendik_marmaray",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "pendik_marmaray",
+      "to": "kaynarca",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "kaynarca",
+      "to": "tersane",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "tersane",
+      "to": "guzelyali",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "guzelyali",
+      "to": "aydintepe",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "aydintepe",
+      "to": "icmeler",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "icmeler",
+      "to": "tuzla",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "tuzla",
+      "to": "cayirova",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "cayirova",
+      "to": "fatih",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "fatih",
+      "to": "osmangazi",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "osmangazi",
+      "to": "darica",
+      "minutes": 3
+    },
+    {
+      "line": "Marmaray",
+      "from": "darica",
+      "to": "gebze",
+      "minutes": 3
+    },
+    {
+      "line": "Metrobüs",
+      "from": "beylikduzu_son_durak",
+      "to": "beykent",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "beykent",
+      "to": "cumhuriyet_mahallesi_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "cumhuriyet_mahallesi_metrobus",
+      "to": "beylikduzu_belediye",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "beylikduzu_belediye",
+      "to": "beylikduzu",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "beylikduzu",
+      "to": "guzelyart",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "guzelyart",
+      "to": "haramidere",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "haramidere",
+      "to": "haramidere_sanayi",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "haramidere_sanayi",
+      "to": "saadetdere_mahallesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "saadetdere_mahallesi",
+      "to": "mustafa_kemalpasa",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "mustafa_kemalpasa",
+      "to": "cihangir_universite_mahallesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "cihangir_universite_mahallesi",
+      "to": "avcilar_merkez_universite_kampusu",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "avcilar_merkez_universite_kampusu",
+      "to": "sukrubey",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "sukrubey",
+      "to": "ibb_sosyal_tesisleri",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "ibb_sosyal_tesisleri",
+      "to": "kucukcekmece_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "kucukcekmece_metrobus",
+      "to": "cennet_mahallesi",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "cennet_mahallesi",
+      "to": "florya_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "florya_metrobus",
+      "to": "besyol",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "besyol",
+      "to": "sefakoy",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "sefakoy",
+      "to": "yenibosna_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "yenibosna_metrobus",
+      "to": "sirinevler",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "sirinevler",
+      "to": "bahcelievler_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "bahcelievler_metrobus",
+      "to": "incirli_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "incirli_metrobus",
+      "to": "zeytinburnu_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "zeytinburnu_metrobus",
+      "to": "merter_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "merter_metrobus",
+      "to": "cevizlibag",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "cevizlibag",
+      "to": "topkapi_sehit_mustafa_cambaz",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "topkapi_sehit_mustafa_cambaz",
+      "to": "bayrampasa_maltepe_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "bayrampasa_maltepe_metrobus",
+      "to": "edirnekapi_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "edirnekapi_metrobus",
+      "to": "ayvansaray_eyupsultan",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "ayvansaray_eyupsultan",
+      "to": "halicioglu",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "halicioglu",
+      "to": "okmeydani",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "okmeydani",
+      "to": "darulaceze_perpa",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "darulaceze_perpa",
+      "to": "okmeydani_hastane",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "okmeydani_hastane",
+      "to": "caglayan_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "caglayan_metrobus",
+      "to": "mecidiyekoy_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "mecidiyekoy_metrobus",
+      "to": "zincirlikuyu",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "zincirlikuyu",
+      "to": "15_temmuz_sehitler_koprusu",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "15_temmuz_sehitler_koprusu",
+      "to": "burhaniye",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "burhaniye",
+      "to": "altunizade_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "altunizade_metrobus",
+      "to": "acibadem_metrobus",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "acibadem_metrobus",
+      "to": "uzuncayir",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "uzuncayir",
+      "to": "fikirtepe",
+      "minutes": 2.5
+    },
+    {
+      "line": "Metrobüs",
+      "from": "fikirtepe",
+      "to": "sogutlucesme_metrobus",
+      "minutes": 2.5
+    }
+  ],
+  "customTransferPenalties": [
+    {
+      "lineA": "Marmaray",
+      "lineB": "M3",
+      "minutes": 15,
+      "stationA": "bakirkoy",
+      "stationB": "ozgurluk_meydani"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "sirinevler",
+      "stationB": "atakoy_sirinevler"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "incirli_metrobus",
+      "stationB": "bakirkoy_incirli"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M3",
+      "minutes": 15,
+      "stationA": "incirli_metrobus",
+      "stationB": "incirli"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "bahcelievler_metrobus",
+      "stationB": "bahcelievler"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "merter_metrobus",
+      "stationB": "merter"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "yenibosna_metrobus",
+      "stationB": "yenibosna"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M9",
+      "minutes": 15,
+      "stationA": "yenibosna_metrobus",
+      "stationB": "yenibosna"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "zeytinburnu_metrobus",
+      "stationB": "zeytinburnu"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "T1",
+      "minutes": 15,
+      "stationA": "zeytinburnu_metrobus",
+      "stationB": "zeytinburnu"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "Marmaray",
+      "minutes": 15,
+      "stationA": "zeytinburnu_metrobus",
+      "stationB": "zeytinburnu"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "T1",
+      "minutes": 15,
+      "stationA": "cevizlibag",
+      "stationB": "cevizlibag_aoy"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "T1",
+      "minutes": 15,
+      "stationA": "topkapi_sehit_mustafa_cambaz",
+      "stationB": "topkapi"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "T4",
+      "minutes": 15,
+      "stationA": "topkapi_sehit_mustafa_cambaz",
+      "stationB": "topkapi"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "T4",
+      "minutes": 15,
+      "stationA": "edirnekapi_metrobus",
+      "stationB": "edirnekapi"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "T5",
+      "minutes": 15,
+      "stationA": "ayvansaray_eyupsultan",
+      "stationB": "ayvansaray"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M7",
+      "minutes": 15,
+      "stationA": "caglayan_metrobus",
+      "stationB": "caglayan"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M2",
+      "minutes": 15,
+      "stationA": "mecidiyekoy_metrobus",
+      "stationB": "sisli_mecidiyekoy"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M7",
+      "minutes": 15,
+      "stationA": "mecidiyekoy_metrobus",
+      "stationB": "mecidiyekoy"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M2",
+      "minutes": 15,
+      "stationA": "zincirlikuyu",
+      "stationB": "gayrettepe"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M11",
+      "minutes": 15,
+      "stationA": "zincirlikuyu",
+      "stationB": "gayrettepe"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M5",
+      "minutes": 15,
+      "stationA": "altunizade_metrobus",
+      "stationB": "altunizade"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M4",
+      "minutes": 15,
+      "stationA": "uzuncayir",
+      "stationB": "unalan"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "Marmaray",
+      "minutes": 15,
+      "stationA": "kucukcekmece_metrobus",
+      "stationB": "kucukcekmece"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "Marmaray",
+      "minutes": 15,
+      "stationA": "sogutlucesme_metrobus",
+      "stationB": "sogutlucesme"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1A",
+      "minutes": 15,
+      "stationA": "bayrampasa_maltepe_metrobus",
+      "stationB": "bayrampasa_maltepe"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "M1B",
+      "minutes": 15,
+      "stationA": "bayrampasa_maltepe_metrobus",
+      "stationB": "bayrampasa_maltepe"
+    },
+    {
+      "lineA": "Metrobüs",
+      "lineB": "Marmaray",
+      "minutes": 15,
+      "stationA": "florya_metrobus",
+      "stationB": "florya"
+    }
+  ]
+}
