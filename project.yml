@@ -26,7 +26,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.keremozturk.EnKisaYolculuk
         MARKETING_VERSION: "1.0"
-        CURRENT_PROJECT_VERSION: "1"
+        CURRENT_PROJECT_VERSION: "2"
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
         ENABLE_PREVIEWS: YES
@@ -35,3 +35,9 @@ targets:
         SWIFT_VERSION: "5.0"
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        # The app does no networking and no cryptography, so it needs no export
+        # compliance review — declaring it here skips the per-build question in
+        # App Store Connect.
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        # Only used by the "konumunu paylaş" button on the ride-with-me screen.
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "Konumunu Kerem'e gönderebilmek için kullanılır."

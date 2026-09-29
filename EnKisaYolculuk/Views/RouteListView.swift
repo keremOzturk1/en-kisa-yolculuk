@@ -6,6 +6,19 @@ struct RouteListView: View {
 
     var body: some View {
         List {
+            // Always first, and shown even when nothing was found — if the
+            // network cannot get her there, the offer matters more, not less.
+            // Presentation only: not a `Route`, so it never enters `routes`.
+            if let origin = appState.station(appState.originID),
+               let destination = appState.station(appState.destinationID) {
+                NavigationLink {
+                    RideWithMeDetailView(origin: origin, destination: destination)
+                } label: {
+                    RideWithMeCard()
+                }
+                .accessibilityIdentifier("rideWithMeCard")
+            }
+
             if appState.routes.isEmpty {
                 ContentUnavailableView("Rota bulunamadı", systemImage: "questionmark.circle")
             } else {

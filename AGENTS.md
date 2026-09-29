@@ -31,14 +31,20 @@ each route reports total time, transfer count and stop count.
 EnKisaYolculuk/          the app
   Models/                Station, Line, Segment, MetroNetwork, Route, penalties
   Graph/                 LineExpandedGraph, Dijkstra, LineTopology
-  Services/              NetworkLoader, RouteService, AppState
+  Models/Chauffeur       the personal "ride with me" strings
+  Services/              NetworkLoader, RouteService, AppState, LocationProvider
   Views/                 Splash, StationPicker, StationSelection, RouteList, RouteDetail
+  Views/RideWithMe*      the personal card and its screen (presentation only)
   Data/network.json      GENERATED — never hand-edit
+  Data/contact.json      GITIGNORED — the real phone number; see contact.example.json
 Data/source/lines.txt    the hand-written network listing
 Tools/                   build_network.py, verify.sh, route.sh
-EnKisaYolculukTests/     137 unit tests
-EnKisaYolculukUITests/   14 UI tests
+EnKisaYolculukTests/     143 unit tests
+EnKisaYolculukUITests/   18 UI tests
 ```
+
+⚠️ **This repository is public.** Never write the phone number, or any other
+personal detail, into a tracked file. It belongs in `Data/contact.json`.
 
 ```bash
 Tools/build_network.py --check                  # parse the data, report, write nothing

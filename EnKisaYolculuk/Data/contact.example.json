@@ -1,0 +1,4 @@
+{
+  "_comment": "Copy this file to contact.json and put the real number in it. contact.json is gitignored so the number never reaches this public repository. Country code included, no spaces — tel: and sms: reject punctuation.",
+  "phoneNumber": "+900000000000"
+}

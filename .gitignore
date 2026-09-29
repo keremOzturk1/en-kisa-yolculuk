@@ -26,3 +26,8 @@ __pycache__/
 
 # NOTE: EnKisaYolculuk/Data/network.json IS committed on purpose — it ships in
 # the app bundle. It is generated from Data/source/lines.txt; see DATA_SCHEMA.md.
+
+# The personal phone number behind the "seni ben götüreyim" screen. This repo is
+# public; contact.example.json records the shape, contact.json holds the real
+# number and stays out of git. See README.
+EnKisaYolculuk/Data/contact.json

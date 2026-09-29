@@ -23,6 +23,23 @@ xcodebuild -project EnKisaYolculuk.xcodeproj -scheme EnKisaYolculuk \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' build
 ```
 
+## First build after a clone
+
+One file is deliberately not in this repository. The "seni ben götüreyim"
+screen dials a real phone number, and this repo is public, so the number lives
+in a gitignored file:
+
+```bash
+cp EnKisaYolculuk/Data/contact.example.json EnKisaYolculuk/Data/contact.json
+# then put the real number in it, country code included, no spaces
+```
+
+Without it the app still builds and runs — the call/message/location buttons
+simply stay disabled and say why. `RideWithMeUITests.testThePhoneNumberIsConfigured`
+fails until the file exists, which is the intended reminder.
+
+---
+
 ## Testing
 
 ```bash
@@ -30,7 +47,7 @@ xcodebuild test -project EnKisaYolculuk.xcodeproj -scheme EnKisaYolculuk \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro'
 ```
 
-137 unit tests (Swift Testing) and 14 UI tests (XCUITest). `Tools/verify.sh`
+143 unit tests (Swift Testing) and 18 UI tests (XCUITest). `Tools/verify.sh`
 runs the routing assertions without Xcode, against Command Line Tools alone.
 
 ---

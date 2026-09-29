@@ -179,7 +179,7 @@ answer.
 ## 7. Current State
 
 **22 lines · 307 stations · 329 segments · 55 transfer points · 28 penalty
-overrides.** `validate()` passes; 137 unit tests and 14 UI tests pass; the app
+overrides.** `validate()` passes; 143 unit tests and 18 UI tests pass; the app
 builds and runs on the simulator.
 
 Lines: M1A, M1B, M2, M3, M4, M5, M6, M7, M8, M9, M11, T1, T2, T4, T5, T6,
@@ -270,6 +270,31 @@ rather than by accident.
     `origin`/`destination` plus `leadingWalkMinutes` / `trailingWalkMinutes`;
     without this a route would appear to start at the boarding station and
     silently swallow 15 minutes.
+12. **The "ride with me" card is presentation only.** The offer pinned above
+    the alternatives (`RideWithMeCard` → `RideWithMeDetailView`, strings in
+    `Chauffeur`) is deliberately **not** a `Route` and **not** a
+    `RouteCriterion` case — putting it in the enum would pollute the
+    lexicographic orderings of §7.3.4. It lives entirely in `RouteListView`,
+    so `RouteService`, the graph and `network.json` are untouched by it.
+    It **claims no duration, distance or stop count**, which is what keeps
+    station coordinates unnecessary: the alternative was geocoding all 307
+    stations (Overpass/OSM) just to estimate a driving time that İstanbul
+    traffic could make slower than the metro anyway.
+    It sits outside the `routes.isEmpty` branch, so it would still appear on an
+    empty results screen. In practice that never happens today:
+    `StationPickerView` only navigates when `routingError == nil`, so an
+    unreachable pair stays on the picker (§7.2.4, pinned by
+    `testUnreachablePairReportsAnErrorAndStaysPut`). The placement is defensive,
+    not a feature.
+    **The phone number is not in the source.** This repository is public, so
+    `Chauffeur.phoneNumber` is read at launch from `EnKisaYolculuk/Data/contact.json`,
+    which is gitignored; `contact.example.json` records the shape and README
+    says how to recreate it. It is `String?` and everything degrades to disabled
+    buttons plus an explanation when it is nil — a required untracked file must
+    never be able to break the build.
+    Its accessibility identifier is `rideWithMeCard`, never `routeCard`:
+    `RouteFlowUITests` counts `routeCard` and expects 1–3, and taps
+    `firstMatch` to reach a route detail. Reusing the identifier breaks both.
 
 ---
 
@@ -278,7 +303,7 @@ rather than by accident.
 Two targets in the Xcode project — `xcodebuild test -scheme EnKisaYolculuk`, or
 ⌘U:
 
-- **`EnKisaYolculukTests`** — 137 Swift Testing cases. Fixture-driven units
+- **`EnKisaYolculukTests`** — 143 Swift Testing cases. Fixture-driven units
   (`Support/Fixtures.swift` builds small networks from JSON, including a
   `penaltyTrap` fixture that fails if the penalty ever leaves the search), plus
   `RealNetworkTests` asserting against the shipped `network.json`.
