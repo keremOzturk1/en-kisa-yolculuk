@@ -52,6 +52,38 @@ runs the routing assertions without Xcode, against Command Line Tools alone.
 
 ---
 
+## Releasing to TestFlight
+
+The app is distributed through TestFlight only. Signing is automatic and uses
+the Apple ID signed in to Xcode (Settings → Accounts); no API key is needed.
+
+1. **Bump `CURRENT_PROJECT_VERSION`** in the app target (and in `project.yml`).
+   App Store Connect rejects a build number it has already seen. Uploaded so
+   far: 1.0 (1), 1.0 (2).
+2. **Make sure `EnKisaYolculuk/Data/contact.json` exists.** It is gitignored,
+   and an archive built without it ships a ride-with-me screen whose buttons
+   are all disabled. `RideWithMeUITests.testThePhoneNumberIsConfigured` catches
+   this.
+3. Archive and upload:
+
+```bash
+A=~/Library/Developer/Xcode/Archives/$(date +%Y-%m-%d)/EnKisaYolculuk.xcarchive
+xcodebuild archive -project EnKisaYolculuk.xcodeproj -scheme EnKisaYolculuk \
+  -configuration Release -destination 'generic/platform=iOS' \
+  -archivePath "$A" -allowProvisioningUpdates
+xcodebuild -exportArchive -archivePath "$A" \
+  -exportOptionsPlist Tools/ExportOptions.plist \
+  -exportPath /tmp/EnKisaYolculuk-export -allowProvisioningUpdates
+```
+
+Or in Xcode: Product → Archive, then Distribute App → App Store Connect.
+
+Processing takes a few minutes to half an hour. The build carries
+`ITSAppUsesNonExemptEncryption = NO` (the app has no networking and no
+cryptography), so it needs no export-compliance answer before testers get it.
+
+---
+
 ## How it works
 
 Routing is a **line-expanded graph**: each node is a `(station, line)` pair —
